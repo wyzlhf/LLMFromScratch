@@ -68,3 +68,4 @@ if __name__ == '__main__':
     context_vecs = mha(batch)
     print(context_vecs)
     print(f'context_vecs.shape: {context_vecs.shape}')
+    print('------------------')
