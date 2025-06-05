@@ -475,7 +475,7 @@ if __name__ == '__main__':
     # urllib.request.urlretrieve(url,filename)
 
     settings,params=download_and_load_gpt2(
-        model_size='124M',models_dir='gpt2'
+        model_size='124M',models_dir='../gpt2'
     )
     # print(f'Settings: {settings}')
     # print(f'Parameter dictionary keys:{params.keys()}')
